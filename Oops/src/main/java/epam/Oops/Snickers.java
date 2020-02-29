@@ -1,6 +1,6 @@
 package epam.Oops;
 
-public class Snickers extends PlainChocolate {
+public class Snickers extends DryFruitsChocolate {
 	float weight;
 	float price;
 	int quantity;
