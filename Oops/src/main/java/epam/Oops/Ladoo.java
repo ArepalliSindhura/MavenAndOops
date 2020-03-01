@@ -35,7 +35,7 @@ public class Ladoo extends Weight {
 	
 	@Override
 	float calculatewt(int quantity, float weight){
-		return 0;
+		return quantity*weight;
 		
 	}
 }

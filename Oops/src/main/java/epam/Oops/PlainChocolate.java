@@ -7,9 +7,9 @@ public class PlainChocolate extends Weight{
 	@Override
 	float calculatewt(int quantity, float weight) { 
 		// TODO Auto-generated method stub
-		float totalwt;
-		totalwt = quantity * weight;
-		return 0;
+		/*float totalwt;
+		totalwt = quantity * weight;*/
+		return quantity*weight;
 	}
 	public float getWeight() {
 		return weight;
