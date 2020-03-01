@@ -131,10 +131,28 @@ public class Gifts {
 			}
 		}
 		System.out.println("the total weight of gift box is " + giftboxwt);
-		System.out.println("The sweets in the box are ");
-		for(int j = 0; j < sweetsList.length; j++){
+		System.out.println("The sweets in the gift are ");
+		for(int j = 0; j < i; j++){
 			System.out.println(sweetsList[j]);
 		}
+		/*int temp;
+		String temp2;
+		for(int x = 0; x < i; x++){
+			for(int y = 0; y < i; y++){
+				if(quantityList[i] > quantityList[i+1]){
+					temp = quantityList[i];
+					quantityList[i] = quantityList[i+1];
+					quantityList[i+1] = temp;
+					temp2 = sweetsList[i];
+					sweetsList[i] = sweetsList[i+1];
+					sweetsList[i+1] = temp2;
+				}
+			}
+		}
+		System.out.println("sorting of sweets in gift based on quantity");
+		for(int x = 0; x < i; x++){
+			System.out.println(sweetsList[i] +" " + quantityList[i]);
+		}*/
 	}
 
 }
