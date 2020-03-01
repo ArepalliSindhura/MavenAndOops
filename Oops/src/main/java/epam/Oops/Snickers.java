@@ -22,22 +22,19 @@ public class Snickers extends DryFruitsChocolate {
 	public void setQuantity(int quantity) {
 		this.quantity = quantity;
 	}
-	public Snickers(float weight, float price, int quantity, float weight2, float price2, int quantity2) {
-		super(weight, price, quantity);
-		weight = weight2;
-		price = price2;
-		quantity = quantity2;
+	public Snickers(float weight, float price, int quantity) {
+		super();
+		this.weight = weight;
+		this.price = price;
+		this.quantity = quantity;
 	}
 	public Snickers() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public Snickers(float weight, float price, int quantity) {
-		super(weight, price, quantity);
-		// TODO Auto-generated constructor stub
-	}
+	
 	@Override
-	public String toString() {
-		return "DairyMilk [weight=" + weight + ", price=" + price + ", quantity=" + quantity + "]";
+	float calculatewt(int quantity, float weight){
+		return super.calculatewt(quantity, weight);
 	}
 }

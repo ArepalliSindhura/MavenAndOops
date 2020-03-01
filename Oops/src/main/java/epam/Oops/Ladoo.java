@@ -1,16 +1,9 @@
 package epam.Oops;
 
-public class Ladoo extends Weight{
+public class Ladoo extends Weight {
 	float weight;
 	float price;
 	int quantity;
-	@Override
-	float calculatewt(int quantity, float weight) { 
-		// TODO Auto-generated method stub
-		float totalwt;
-		totalwt = quantity * weight;
-		return 0;
-	}
 	public float getWeight() {
 		return weight;
 	}
@@ -39,9 +32,10 @@ public class Ladoo extends Weight{
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	@Override
-	public String toString() {
-		return "DryFruitsChocolate [weight=" + weight + ", price=" + price + ", quantity=" + quantity + "]";
-	}
 	
+	@Override
+	float calculatewt(int quantity, float weight){
+		return 0;
+		
+	}
 }
